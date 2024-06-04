@@ -309,7 +309,7 @@ bazel run :bazel-diff --config=verbose -- bazel-diff -h
 ### Build your own deployable JAR
 
 ```terminal
-bazel build //src/main/java/com/bazel_diff:bazel-diff_deploy.jar
+bazel build //cli:bazel-diff_deploy.jar
 java -jar bazel-bin/src/main/java/com/bazel_diff/bazel-diff_deploy.jar # This JAR can be run anywhere
 ```
 
